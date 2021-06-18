@@ -1,4 +1,4 @@
-#link = https://programmers.co.kr/learn/courses/30/lessons/72410
+# link = https://programmers.co.kr/learn/courses/30/lessons/72410
 
 def return_char_from_new_id(c):
     if ord('a') <= ord(c) and ord(c) <= ord('z'):
