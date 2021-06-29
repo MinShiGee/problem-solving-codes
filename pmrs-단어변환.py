@@ -20,7 +20,7 @@ def solution(begin, target, words):
                     continue
                 cnt+= 1
             if cnt != 1:
-                continue
+                continue 
             adj_list[i].append(j)
             adj_list[j].append(i)
 
