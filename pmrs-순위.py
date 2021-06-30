@@ -1,3 +1,5 @@
+# https://programmers.co.kr/learn/courses/30/lessons/49191
+
 from queue import Queue
 
 def solve(adj_list:list, vers_cnt:list, n):
