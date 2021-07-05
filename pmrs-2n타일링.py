@@ -19,4 +19,3 @@ def solution(n):
     dp_dic = {0:0, 1:1, 2:2, 3:3}
     answer = f(n, dp_dic)
     return answer
-print(solution(60000))
