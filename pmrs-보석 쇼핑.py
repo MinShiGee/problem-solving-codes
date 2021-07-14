@@ -9,7 +9,7 @@ def solution(gems):
     gemset = set([gems[0]])
     res = (0, len(gems) - 1, len(gems))
     if l == len(gemset) and res[2] > ed - st:
-            res = (st, ed, ed - st)
+        res = (st, ed, ed - st)
             
     for gem in gems[1:]:
         ed += 1
